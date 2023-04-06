@@ -1,4 +1,4 @@
-import { Presentation } from "@/components/Presentantion";
+import { Presentation } from "@/components/Presentation";
 import { Techs } from "@/components/Techs";
 import { About } from "@/components/About";
 import { Projects } from "@/components/Projects";
@@ -17,3 +17,4 @@ export default function Home() {
     </main>
   );
 }
+
