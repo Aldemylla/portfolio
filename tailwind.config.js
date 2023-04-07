@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: {
         background: "url('/background.svg')",
       },
+      fontFamily: {
+        outfit: "var(--outfit)",
+        "send-flowers": "var(--send-flowers)",
+      },
     },
   },
   plugins: [],

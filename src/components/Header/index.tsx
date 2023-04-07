@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <header>
-      <h1>Aldemylla Meireles</h1>
+      <h1 className='font-send-flowers'>Aldemylla Meireles</h1>
       <nav>
         <ul>
           <li>
