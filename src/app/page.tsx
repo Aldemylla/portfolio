@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className='m-auto max-w-4xl'>
       <Presentation />
       <Techs />
       <About />
