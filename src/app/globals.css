@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@layer components {
+  .bg-container {
+    @apply border border-neutral-700 border-opacity-60 rounded-sm bg-neutral-800
+  }
+  .btn {
+    @apply flex gap-2 items-center bg-container cursor-pointer hover:scale-90 transition duration-[250ms] ease-in-out;
+  }
 }

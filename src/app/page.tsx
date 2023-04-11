@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className='space-y-16 m-auto pt-16 max-w-4xl'>
+    <main className='grid justify-items-center space-y-16 m-auto pt-16 max-w-xl'>
       <Presentation />
       <Techs />
       <About />

@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='pt-br' className='scroll-smooth'>
       <body
-        className={`bg-neutral-900 bg-[url('/background.svg')] bg-no-repeat bg-center bg-cover text-neutral-400 ${outfit.variable} ${sendFlowers.variable} font-outfit`}>
+        className={`bg-neutral-900 bg-[url('/background.svg')] bg-fixed bg-no-repeat bg-center bg-cover text-neutral-400 ${outfit.variable} ${sendFlowers.variable} font-outfit`}>
         <Header />
         {children}
       </body>
